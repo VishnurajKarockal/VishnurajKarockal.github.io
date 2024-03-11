@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,39 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+.typing-animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust height as needed */
+}
+
+.typing-text span {
+  overflow: hidden;
+  border-right: .15em solid orange; /* Change border color as needed */
+  white-space: nowrap;
+  margin: 0 auto;
+  padding-right: 3px; /* Adjust spacing as needed */
+  animation: typing 1s steps(20, end), blink-caret .5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange; /* Change caret color as needed */
   }
 }
