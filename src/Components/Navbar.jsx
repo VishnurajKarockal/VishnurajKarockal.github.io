@@ -69,7 +69,7 @@ const Navbar = () => {
             bg="#cccbc8"
             variant="solid"
             as="a"
-            href=".\Sources\VishnurajKR-FullStackWebDeveloper-Rvbd.pdf"
+            href="https://github.com/VishnurajKarockal/VishnurajKarockal.github.io/blob/master/src/Sources/VishnurajKR-FullStackWebDeveloper-Mblm.pdf"
             download
             className="nav-link resume"
             id="resume-button-1"
